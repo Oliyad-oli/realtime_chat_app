@@ -91,8 +91,7 @@ const LoginForm: React.FC<LoginFormProps> = ({ onSwitchToSignup }) => {
 
       <div className="text-center text-xs text-muted-foreground">
         <p>Demo accounts:</p>
-        <p>admin@chat.com / admin123</p>
-        <p>sarah@chat.com / password</p>
+        <h2>olii Admin</h2>
       </div>
     </form>
   );

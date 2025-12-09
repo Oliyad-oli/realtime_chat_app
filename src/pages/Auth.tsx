@@ -100,7 +100,7 @@ const Auth: React.FC = () => {
               <SignupForm onSwitchToLogin={() => setIsLogin(true)} />
             )}
           </div>
-        </div>
+        </div>••••••
       </div>
     </div>
   );
