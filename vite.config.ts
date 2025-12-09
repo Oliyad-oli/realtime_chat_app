@@ -8,6 +8,8 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
+    base: "/chat_app_pro/",
+    plugins: [react()],
   },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
@@ -16,3 +18,4 @@ export default defineConfig(({ mode }) => ({
     },
   },
 }));
+
